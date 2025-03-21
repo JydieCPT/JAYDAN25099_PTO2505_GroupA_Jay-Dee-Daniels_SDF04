@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+<body class="bg-gray-100 dark:bg-gray-900">
+
+    <footer class="bg-[#659f8f] dark:bg-[#313131] text-white">
         <div class="container px-6 py-12 mx-auto">
-            <div class="flex">
+            <div class="flex justify-between items-center">
                 <a href="#">
                     <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
                 </a>
+                <nav class="space-x-6">
+                    <a href="#" class="hover:underline">About</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                    <a href="#" class="hover:underline">Privacy</a>
+                </nav>
             </div>
+            <hr class="my-6 border-gray-400">
+            <p class="text-center text-sm">&copy; 2025 CodeSpace. All rights reserved.</p>
         </div>
     </footer>
+
 </body>
 </html>
