@@ -3,25 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Footer with Subscription</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
-<body class="bg-gray-100 dark:bg-gray-900">
+<body>
 
-    <footer class="bg-[#659f8f] dark:bg-[#313131] text-white">
-        <div class="container px-6 py-12 mx-auto">
-            <div class="flex justify-between items-center">
-                <a href="#">
-                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
-                </a>
-                <nav class="space-x-6">
-                    <a href="#" class="hover:underline">About</a>
-                    <a href="#" class="hover:underline">Contact</a>
-                    <a href="#" class="hover:underline">Privacy</a>
-                </nav>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="subscribe-section">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Technologies</h3>
+                        <ul>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">React</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <hr class="my-6 border-gray-400">
-            <p class="text-center text-sm">&copy; 2025 CodeSpace. All rights reserved.</p>
+
+            <hr class="divider">
+
+            <p class="copyright">&copy; 2025 CodeSpace. All rights reserved.</p>
         </div>
     </footer>
 
