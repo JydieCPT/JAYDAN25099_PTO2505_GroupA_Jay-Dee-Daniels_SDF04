@@ -109,6 +109,11 @@
     margin: 10px 0;
 }
 
+/* CodeSpace Logo */
+.footer-logo {
+    height: 30px;
+}
+
 .copyright {
     font-size: 12px;
     text-align: center;
