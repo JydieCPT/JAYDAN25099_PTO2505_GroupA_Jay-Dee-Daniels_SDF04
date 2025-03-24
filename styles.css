@@ -33,7 +33,7 @@
 
 .subscribe-section {
     flex: 1;
-    max-width: 40%;
+    max-width: 20%;
 }
 
 .subscribe-section h3 {
@@ -79,7 +79,7 @@
 }
 
 .footer-column h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -95,7 +95,7 @@
 .footer-column ul li a {
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .footer-column ul li a:hover {
